@@ -1,0 +1,307 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif !important;
+  scroll-behavior: smooth;
+  transition: 'all 0.2s',
+
+}
+
+.ant-layout-sider {
+  flex: 0 0 230px !important;
+  max-width: 230px !important;
+  min-width: 230px !important;
+  width: 230px !important;
+}
+
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+
+.sidemenu{
+  height: 100dvh !important;
+  position: fixed !important;
+  left:0 !important;
+  top: 0 !important;
+  background-color: #002329 !important  ;
+  transition: 0.2s ease;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #f7b36b;
+  color: rgb(0, 35, 41);
+  padding: 8px 12px 8px 12px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  height: 64 !important;
+  line-height: 64px;
+}
+
+main {
+  overflow-y: scroll !important;
+  height: 100%;
+
+  
+}
+
+.btn-primary{
+  background-color: hsl(294, 36%, 31%);
+  border: none;
+  color: #fff !important;
+}
+
+.btn-secondary{
+  background-color: #62c1db;
+  border: none;
+}
+
+.ant-layout .ant-layout-sider-trigger {
+  display: none !important;
+}
+
+.logo{
+  margin: 0;
+  height: 64px;
+  transition: 0.2s ease;
+  /* width: 80px;
+  justify-content: center;
+  align-items: center; */
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #67336d !important;
+}
+
+.border-primary{
+  border: 1px solid #67336d !important;
+}
+
+.cardhover:hover{
+  color: #fff !important;
+  background-color: rgba(93,191,157, 0.6)!important;
+  transition: 0.3 ease;
+}
+
+.sign-in__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sign-in__backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sign-in__wrapper form {
+  width: 24rem;
+  max-width: 90%;
+  z-index: 1;
+  animation: showSignInForm 1s;
+}
+
+.sign-in__wrapper form img {
+  width: 4rem;
+}
+
+.login-container {
+  background-color: #f0f2f5; /* Set your desired background color */
+}
+
+.login-card {
+  background-color: #fff; /* Set your desired card background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a subtle elevation effect */
+}
+
+.react-calendar {
+  width: 350px;
+  max-width: 100%;
+  background: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  border-radius: 6px !important;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: #fff;
+   border-radius:  4px !important;
+}
+
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+  font: inherit;
+  font-size: 0.833em;
+}
+
+.regContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+section {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+ 
+}
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+.flexGrow {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@keyframes showSignInForm {
+  0%,
+  30% {
+    transform: translate(0, -150%);
+  }
+  70%,
+  90% {
+    transform: translate(0, 1rem);
+  }
+  80%,
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .sidemenu {
+    display: block; /* Hide the Sider component on smaller screens */
+    z-index: 1;
+  }
+
+  .ant-layout-sider {
+    flex: 0 0 230px !important;
+    max-width: 230px !important;
+    min-width: 230px !important;
+    width: 230px !important;
+    height: 100dvh !important;
+    overflow-y: scroll !important;
+  }
+  
+  .ant-layout-sider-collapsed {
+    flex: 0 0 80px !important;
+    max-width: 0px !important;
+    min-width:0px !important;
+    width: 0 !important;
+  }
+
+  .contentStyle {
+    margin-left: 0; /* Adjust content margin for smaller screens */
+    width: 100%;
+    padding: 0;
+  }
+
+  main {
+    margin-left: 0 !important;
+  }
+
+
+  
+}
