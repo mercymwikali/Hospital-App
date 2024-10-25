@@ -2,7 +2,7 @@ const allowedOrigins = [
     'http://localhost:3000',
  
  
-    'https://crowriter.vercel.app',
+    'https://hospital-app-sigma.vercel.app',
      
  ]
  
