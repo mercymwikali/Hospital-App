@@ -69,3 +69,12 @@
 20241025	10:34:31	da874f03-34d7-4d0d-bfa4-560d4ed63200	POST	/auth/logout	http://localhost:3000
 20241025	10:34:33	a2787ffa-ceca-4de4-8345-7e86a9408037	OPTIONS	/auth/login	http://localhost:3000
 20241025	10:34:33	593738af-f612-4f68-975d-efba57b35495	POST	/auth/login	http://localhost:3000
+20241025	11:33:25	c227046a-7e70-4ced-95bf-dc4a1e688f89	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:33:46	c7141303-7298-47a3-bcb1-57355d8a5abe	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:35:35	84767201-1741-4f51-9e41-10b7231d4ca7	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:42:04	3cb767a6-9590-4b86-a070-b4fe7c6ff717	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:42:38	6e600473-237e-4bc6-ac1b-ff439e0c9a4e	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:44:02	a3b69532-55cd-42e2-b4bf-eddd08994b71	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:44:11	161452ef-6ea6-441e-9e19-62de3a35474c	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:48:41	ad3230b0-2bb3-49eb-9635-d01d6ff8e952	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app
+20241025	11:48:49	3617812d-8f92-4745-b558-820563b0b24b	OPTIONS	/auth/login	https://hospital-app-sigma.vercel.app

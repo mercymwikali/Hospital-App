@@ -40,7 +40,7 @@ const Login = () => {
     <div className="regContainer">
       <section>
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
-        <Card title="Sign In" headStyle={{ backgroundColor: '#002329', color: '#fff' }}>
+        <Card title="Sign In" headStyle={{ backgroundColor: '#0060a3', color: '#fff' }}>
           <Form onFinish={onFinish}>
             <label htmlFor="email"> <FaUser /> Email:</label>
             <InputField

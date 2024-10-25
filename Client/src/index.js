@@ -15,27 +15,28 @@ root.render(
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: '#002329',
+          colorPrimary: '#0060a3',
           colorBorder:'#62c1db',
-          colorPrimaryBg	:'#002329',
+          colorPrimaryBg	:'#0060a3',
           colorText:'#000',
           colorIcon:'#FAFAFA'
         },
         components: {
           Menu: {
-            itemSelectedBg: '#5DBF9D',
+            itemSelectedBg: '#ac8342',
             itemColor: '#000',
-            itemSelectedColor:'#000',
-            itemHoverBg:'rgba(93,191,157, 0.6)',
-            itemHoverColor:'#000',
-          },
+            itemSelectedColor: '#000',
+            itemHoverBg: 'rgba(172, 131, 66, 0.6)', // Updated to match itemSelectedBg
+            itemHoverColor: '#000',
+        },
+        
           Input:{
             hoverBorderColor:'#62c1db', 
             activeBorderColor:'#67336d',
             // activeShadow:'rgb(0, 0, 0)'
           },
           Table:{
-            headerBg	:'#007580',
+            headerBg	:'#0060a3',
             headerColor:'#002329',
             itemColor:"#fff",
             headerSortActiveBg:'#002329',

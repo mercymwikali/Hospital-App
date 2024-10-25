@@ -75,7 +75,7 @@ const MainLayout = () => {
                         navigate(key);
                     }}
                     style={{
-                        backgroundColor: 'transparent',
+                        backgroundColor: '#0060a3',
                         height: '100%',
                         color: '#fff',
                         paddingTop: '70px',
@@ -488,41 +488,44 @@ const MainLayout = () => {
             </Sider>
             <Layout className="site-layout">
                 <Header
-                    style={{
-                        padding: 0,
-                        backgroundColor: '#002329',
-                        zIndex: 1
-                    }}
-                    className='header'
+    style={{
+        padding: 0,
+        backgroundColor: '#0060a3',
+        zIndex: 1,
+    }}
+    className='header'
+>
+    <div className="d-flex justify-content-evenly align-items-center">
+       
+        <div className="logo text-center px-2">
+            <img
+                src={logo}
+                alt="Logo"
+                style={{
+                    height: '60px', // Set a fixed height for the logo
+                    maxWidth: '80%', // Ensures the logo doesn't exceed its container
+                    width: collapsed ? '80%' : 'auto', // Set width based on collapsed state
+                    marginTop: '0',
+                    objectFit: 'contain', // Ensures the logo retains aspect ratio
+                }}
+            />
+        </div>
+        <Button
+            type="text"
+            icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+            onClick={() => setCollapsed(!collapsed)}
+            style={{
+                fontSize: '22px',
+                width: 64,
+                height: 64,
+                color: '#fff',
+            }}
+        />
+    </div>
 
-                >
-                    <div className="d-flex justify-content-evenly align-items-center">
-                        <Button
-                            type="text"
-                            icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                            onClick={() => setCollapsed(!collapsed)}
-                            style={{
-                                fontSize: '22px',
-                                width: 64,
-                                height: 64,
-                                color:'#fff'
-                            }}
-                        // className='d-sm-none d-md-block'
-                        />
-                        <div className="logo text-center px-2">
-                            <img
-                                src={logo}
-                                height={60}
-                                style={{ maxWidth: collapsed ? '80px' : '100%', marginTop: '0' }}
-                                alt="Logo"
-                            />
-                        </div>
-                    </div>
+    <Sigonout />
+</Header>
 
-                    <Sigonout />
-
-
-                </Header>
 
                 <Layout>
                     <Breadcrumb

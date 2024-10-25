@@ -43,7 +43,7 @@ const Register = () => {
   return (
     <div className="regContainer">
       <section>
-        <Card title={'Register Account'} headStyle={{ backgroundColor: '#002329', color: '#fff' }}>
+        <Card title={'Register Account'} headStyle={{ backgroundColor: '#0060a3', color: '#fff' }}>
           <Form onFinish={onFinish}>
             <div className="mt-2">
               <label htmlFor="fname">
